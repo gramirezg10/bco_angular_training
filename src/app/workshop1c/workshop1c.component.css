@@ -1,0 +1,157 @@
+.content {
+    height: 95%;
+    width: 100%;
+    display: flex;
+    background: #ECECEC;
+}
+
+.content1 {
+    width: 30%;
+    height: 90%;
+}
+
+.c1_1 {
+    background: green;
+    height: 20%;
+    width: 93%;
+}
+
+.c1_2 {
+    display: flex;
+    height: 100%;
+    width: 93%;
+}
+
+.c1_2_1 {
+    height: 80%;
+    width: 100%;
+    margin-top: 3%;
+}
+
+.c1_2_1_1 {
+    height: 70%;
+    width: 95%;
+    background: rgb(99, 177, 99);
+    margin-bottom: 5%;
+}
+
+.c1_2_1_2 {
+    height: 35%;
+    width: 95%;
+    background: rgb(241, 191, 96);
+    margin-top: 3%;
+}
+
+.c1_2_2_1 {
+    height: 35%;
+    width: 95%;
+    background: rgb(99, 177, 99);
+    margin-bottom: 5%;
+}
+
+.c1_2_2_2 {
+    height: 70%;
+    width: 95%;
+    background: rgb(241, 191, 96);
+}
+
+.content1_1 {
+    width: 70%;
+    height: 90%;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.content2 {
+    display: flex;
+    width: 96%;
+    height: 80%;
+}
+
+.c2_1 {
+    height: 100%;
+    width: 60%;
+    /* background: gold; */
+}
+
+.c2_1_1 {
+    display: flex;
+    height: 30%;
+    width: 100%;
+}
+
+.c2_1_1_1 {
+    height: 90%;
+    width: 50%;
+    background: rgb(59, 174, 219);
+    margin-right: 5%;
+}
+
+.c2_1_1_2 {
+    height: 90%;
+    width: 50%;
+    background: rgb(30, 122, 150);
+    margin-left: 5%;
+}
+
+.c2_1_2 {
+    height: 70%;
+    width: 100%;
+    background: rgba(128, 62, 62, 0.781);
+}
+
+.c2_2 {
+    height: 100%;
+    width: 30%;
+    margin-left: 3%;
+}
+
+.c2_2_1 {
+    height: 65%;
+    width: 95%;
+    background: rgba(44, 44, 219, 0.877);
+}
+
+.c2_2_2 {
+    height: 30%;
+    width: 95%;
+    background: rgb(104, 72, 247);
+    margin-top: 10% !important;
+}
+
+.content3 {
+    display: flex;
+    width: 94%;
+    height: 20%;
+}
+
+.c3_1 {
+    background: rgba(252, 131, 110, 0.952);
+    width: 35%;
+    height: 100%;
+}
+
+.c3_2 {
+    background: rgb(255, 159, 159);
+    width: 65%;
+    height: 100%;
+}
+
+.radius {
+    border-radius: 30px;
+}
+
+.margin {
+    margin: 2%;
+}
+
+.c1_1_2 {
+    height: 100%;
+    width: 95%;
+    background: green;
+}
+
+.max {
+    height: 74%;
+    width: 100%;
+}

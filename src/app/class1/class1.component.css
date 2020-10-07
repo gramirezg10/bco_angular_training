@@ -1,0 +1,35 @@
+.ppalContent {
+    height: 100%;
+}
+
+.header {
+    background-color: black;
+    height: 20%;
+}
+
+.body {
+    background-color: whitesmoke;
+    height: 75%;
+    display: flex;
+    text-align: center;
+}
+
+.left {
+    width: 30%;
+    background: rgb(76, 146, 250);
+}
+
+.center {
+    width: 40%;
+    background: whitesmoke;
+}
+
+.right {
+    width: 30%;
+    background: rgb(76, 146, 250);
+}
+
+.footer {
+    background-color: grey;
+    height: 5%;
+}
