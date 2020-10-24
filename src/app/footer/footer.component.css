@@ -18,6 +18,26 @@
 }
 
 .footer {
+    display: flex;
     text-align: center;
-    padding: 3%;
+    background: grey;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 15px;
+}
+
+ul {
+    padding: 1rem;
+    background: black;
+    margin: 2% 0%;
+}
+
+ul>li {
+    display: inline;
+    color: whitesmoke;
+    padding: 4%;
 }

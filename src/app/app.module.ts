@@ -8,6 +8,7 @@ import { Class1Component } from './class1/class1.component';
 import { Workshop1aComponent } from './workshop1a/workshop1a.component';
 import { Workshop1bComponent } from './workshop1b/workshop1b.component';
 import { Workshop1cComponent } from './workshop1c/workshop1c.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { Workshop1cComponent } from './workshop1c/workshop1c.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

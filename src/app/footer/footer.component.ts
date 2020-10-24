@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-footer',
@@ -9,10 +9,14 @@ export class FooterComponent implements OnInit {
 
   year = '2020';
   author = 'Germán Ramírez Gaviria';
+  @Input() mensajeDesdeElPadre:string
+  @Output() mensajeParaElPadre = new EventEmitter<string>()
+
   constructor() {
   }
 
   ngOnInit(): void {
+    this.mensajeParaElPadre.emit('Primer proyecto de Angular!');
   }
 
 }

@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'taller';
+
+  mensajeParaHijo : string = 'Curso de angular!';
+  mensajeDesdeElHijo: string;
+
+  recibirMensaje($event){
+    this.mensajeDesdeElHijo = $event;
+    console.log(this.mensajeDesdeElHijo);
+  }
 }
